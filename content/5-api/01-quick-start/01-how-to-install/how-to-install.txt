@@ -8,28 +8,52 @@ Install latest version of Xcode from the Mac App Store (4.4+)
 
 Install (link: http://mxcl.github.com/homebrew/ text: Homebrew)
 
-```
-/usr/bin/ruby -e "$(/usr/bin/curl -fsSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"
+## Bash
+
+```shell
+sudo apt update
 ```
 
-Test your configuration with Homebrew (you can safely ignore the warnings about X11 missing)
+## JSON
 
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "isAlive": true,
+  "age": 25,
+  "address": {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10021-3100"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "212 555-1234"
+    },
+    {
+      "type": "office",
+      "number": "646 555-4567"
+    },
+    {
+      "type": "mobile",
+      "number": "123 456-7890"
+    }
+  ],
+  "children": [],
+  "spouse": null
+}
 ```
-brew doctor
+## HTML
+
+```html
+<div class="test">Ok</div>
 ```
 
-Install Redis using Homebrew
+## PHP
 
+```php
+<?php $demo_output = var_dump($demo); ?>
 ```
-brew install redis
-```
-
-Enter these 3 lines to automatically start Redis
-
-```
-mkdir -p ~/Library/LaunchAgents
-cp /usr/local/Cellar/redis/2.2.12/io.redis.redis-server.plist ~/Library/LaunchAgents/
-launchctl load -w ~/Library/LaunchAgents/io.redis.redis-server.plist
-```
-
-.... to continue

@@ -208,23 +208,17 @@ h4 {
 
 /* -----  Code fields  --------------------------------------------- */
 
-code,
 pre {
-	background: #eee;
+  background: #eee;
+  border-bottom: 1px solid #d8dee9;
+  color: #a7adba;
+  padding: 1em;
+  white-space: pre-wrap;
 }
 
 code {
-	font-family: "Courier New", monospace;
-	padding: 2px 4px;
-	vertical-align: text-bottom;
-}
-
-pre {
-	padding: 1em;
-}
-
-pre.highlight {
-	margin-bottom:18px;
+  padding: 2px 4px;
+  vertical-align: text-bottom;
 }
 
 /* -----  Search fields  --------------------------------------------- */

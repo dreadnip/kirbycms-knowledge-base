@@ -8,18 +8,11 @@
 	<meta name="description" content="<?= $site->description()->html() ?>">
 	<?= css('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700') ?>
 	<?= css('assets/css/style.css') ?>
-	<?= css('assets/css/php.css') ?>
-	<?= css('assets/css/html.css') ?>
-	<?= css('assets/css/js.css') ?>
-	<?= css('assets/css/css.css') ?>
-
+	<?= css('assets/css/prism.css') ?>
 	<link rel="icon" href="<?php echo url('assets/images/favicon.ico') ?>" />
 </head>
-
 <body>
-	
 	<div class="wrap">
-		
 		<nav class="menu">
 			<a class="logo" href="<?php echo url() ?>"><img src="<?= url() ?>/assets/images/logo.png" alt="" /></a>
 			<form action="./search"><input type="search" class="search" name="q" placeholder="Search..."/></form>
