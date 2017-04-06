@@ -1,4 +1,5 @@
 .DS_Store
+/content/site.txt
 /site/cache
 *.espressostorage
 /vendor/
