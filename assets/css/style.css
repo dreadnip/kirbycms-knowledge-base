@@ -77,13 +77,13 @@ h4 {
 }
 
 ::-moz-selection {
-	background: #71efeb;
-	color: #261e66;
+	background: #e74c3c;
+	color: #fff;
 }
 
 ::selection {
-	background: #71efeb;
-	color: #261e66;
+	background: #e74c3c;
+	color: #fff;
 }
 
 /* -----  Site layout --------------------------------------------- */
