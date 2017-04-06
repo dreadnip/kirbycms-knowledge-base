@@ -4,7 +4,7 @@ Title: Home
 
 Text: 
 
-# Yes, it works! This is your knowledge-base made with Kirby!
+# Yes, it works!
 
 Kirby is a simple file-based cms, made by (link: https://twitter.com/bastianallgeier text: Bastian Allgeier). At (link: http://www.6wunderkinder.com text: 6Wunderkinder) we're using it as an internal knowledge-base for any type of documentation (processes, products, API...). It took us a long time to find the best setup for this and because we think most companies are struggling with this, we decided to open-source it.
 

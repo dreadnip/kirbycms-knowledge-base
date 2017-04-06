@@ -15,6 +15,6 @@
 	<div class="wrap">
 		<nav class="menu">
 			<a class="logo" href="<?php echo url() ?>"><img src="<?= url() ?>/assets/images/logo.png" alt="" /></a>
-			<form action="./search"><input type="search" class="search" name="q" placeholder="Search..."/></form>
+			<form action="<?= url() ?>/search"><input type="search" class="search" name="q" placeholder="Search..."/></form>
 			<?php snippet('treemenu') ?>			
 		</nav>

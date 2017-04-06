@@ -20,7 +20,7 @@
 		  <?php endforeach ?>
 		</ul>
 
-		<?php elseif($search->query()): ?>
+		<?php else: ?>
 		<div class="no-results">No results for <strong><?= html($search->query()) ?></strong></div>
 		<?php endif ?>
 

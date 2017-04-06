@@ -3,7 +3,7 @@
 return function($site, $pages, $page) {
 
   $query   = get('q');
-  $results = $site->search($query, 'title|text');
+  $results = $site->index()->visible()->search($query, 'title|text');
 
   return array(
     'query'   => $query,
