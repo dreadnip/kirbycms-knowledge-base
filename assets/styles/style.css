@@ -1,0 +1,268 @@
+
+/* -----  Reset  --------------------------------------------- */
+
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, figure, pre {
+	/* Reset font-sizes and normalize margins */
+	font-size: inherit;
+	line-height: inherit;
+	margin: 0 0 1.5rem;
+}
+
+/* -----  Defaults  --------------------------------------------- */
+
+body {
+	background:#F4F4F4;
+	font-family: 'Roboto', 'Helvetica', sans-serif;
+	font-size:16px;
+	line-height: 1.5;
+	color:#555;
+	padding: 20px 0;
+}
+
+a {
+	color:#1250A8;
+	text-decoration:none;
+}
+
+a:hover, a:focus, a:active, .active {
+	color: #4696E5;
+}
+
+b, strong {
+	font-weight: 700;
+}
+
+img {
+	border-style: none;
+	width: 100%;
+	height: auto;
+}
+
+/* -----  Typography  --------------------------------------------- */
+
+h1 {
+	color: #000;
+	font-size: 2rem;
+	line-height: 1.25em;
+	margin-bottom: 2rem;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 1.25;
+	margin-bottom: 2rem;
+}
+
+h3 {
+	font-size: 1.25em;
+	line-height: 1.2;
+	margin-bottom: 3rem;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+::-moz-selection {
+	background: #71efac;
+	color: #261e66;
+}
+
+::selection {
+	background: #71efac;
+	color: #261e66;
+}
+
+/* -----  Site layout --------------------------------------------- */
+
+.wrap {
+	width:50vw;
+	display: flex;
+	flex-direction: row;
+	background: #fff;
+	border:1px solid #D9D9D9;
+	margin:0 auto;
+	padding: 2em;
+}
+
+@media all and (max-width: 30em) {
+  .wrap {
+  	width:90vw;
+    flex-direction: column;
+  }
+}
+
+/* -----  Sidebar / menu  --------------------------------------------- */
+
+.logo {
+	display:block;
+	width:115px;
+	margin:0 auto 2em;
+}
+
+.menu {
+	min-width:20%;
+	flex: 0;
+}
+
+.menu a {
+	color:#000;
+}
+
+.menu ul {
+	margin-bottom: 5px;
+}
+
+.menu li.depth-1 a {
+	font-weight:500;
+	font-size:14px;
+}
+
+.menu li.depth-2 a {
+	font-weight:400;
+	font-size:14px;
+	line-height:18px;
+}
+
+.menu li.hasChildren {
+	background-image:url(../images/arrow.png);
+	background-position:250px 10px;
+	background-repeat:no-repeat;
+	background-size:6px 9px;
+}
+
+.menu li a {
+	display:block;
+	padding:5px;
+}
+
+.menu ul ul li a {
+	padding-left:20px;
+	color:#999;
+}
+
+.menu ul ul ul li a {
+	padding-left:30px;
+	color:#999;
+}
+
+.menu ul ul ul ul li a {
+	padding-left:40px;
+	color:#999;
+}
+
+.menu ul ul ul ul ul li a {
+	padding-left:50px;
+	color:#999;
+}
+
+/* -----  Content section  --------------------------------------------- */
+
+.content {
+	min-width:80%;
+	flex: 1;
+	padding: 0 2em;
+}
+
+.content ul, .content ol {
+	list-style-type: disc; 
+	margin-left: 15px;
+}
+
+@media all and (max-width: 30em) {
+  .content {
+  	padding: 0;
+  }
+}
+
+/* -----  Breadcrumb  --------------------------------------------- */
+
+.breadcrumb {
+	margin-bottom: 2em;
+}
+
+.breadcrumb ul {
+	list-style: initial;
+	margin:0;
+	padding-bottom: 1em;
+}
+
+.breadcrumb ul li {
+	float:left;
+	padding-right:5px;
+}
+
+.breadcrumb ul li a {
+	font-size:14px;
+}
+
+/* -----  Code fields  --------------------------------------------- */
+
+code,
+pre {
+	background: #eee;
+}
+
+code {
+	font-family: "Courier New", monospace;
+	padding: 2px 4px;
+	vertical-align: text-bottom;
+}
+
+pre {
+	padding: 1em;
+}
+
+pre.highlight {
+	margin-bottom:18px;
+}
+
+/* -----  Search fields  --------------------------------------------- */
+
+.search {
+	height: 35px;
+	border:1px solid #D9D9D9;
+	margin-bottom: 2em;
+	text-indent: 5px;
+}
+
+.results ul {
+	margin:0;
+}
+
+.results li {
+	list-style:none;
+	border-bottom:1px solid #eee;
+	padding:10px 0;
+}
+
+.results a {
+	border:none;
+	color:#777;
+}
+
+.results a:hover {
+	color:red;
+}
+
+.results li strong {
+	display:block;
+}
+
+.results li strong a {
+	color:#222;
+}
+
+.results .no-results {
+	margin-top:20px;
+}

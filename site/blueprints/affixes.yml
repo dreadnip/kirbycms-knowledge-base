@@ -1,0 +1,45 @@
+title: Affixes
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  text:
+    label: Text
+    type:  textarea
+
+  affixes:
+    label: Affix effects
+    type: structure
+    entry: >
+      <strong>{{title}}</strong></br>
+      Level: {{level}} | Difficulty: {{difficulty}} </br>
+      Description: {{description}} </br>
+      Note: {{note}}
+    fields:
+      title:
+        label: Title
+        type: text
+      level:
+        label: Level
+        type: select
+        default: first
+        options:
+          4: 4
+          7: 7
+          10: 10
+      difficulty:
+        label: Difficulty
+        type: select
+        default: easy
+        options:
+          easy: Easy
+          med: Medium
+          hard: Hard
+      description:
+        label: Description
+        type: textarea
+      note:
+        label: Note
+        type: textarea
