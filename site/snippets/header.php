@@ -7,11 +7,11 @@
 	<title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
 	<meta name="description" content="<?= $site->description()->html() ?>">
 	<?= css('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700') ?>
-	<?= css('assets/styles/style.css') ?>
-	<?= css('assets/styles/php.css') ?>
-	<?= css('assets/styles/html.css') ?>
-	<?= css('assets/styles/js.css') ?>
-	<?= css('assets/styles/css.css') ?>
+	<?= css('assets/css/style.css') ?>
+	<?= css('assets/css/php.css') ?>
+	<?= css('assets/css/html.css') ?>
+	<?= css('assets/css/js.css') ?>
+	<?= css('assets/css/css.css') ?>
 
 	<link rel="icon" href="<?php echo url('assets/images/favicon.ico') ?>" />
 </head>
