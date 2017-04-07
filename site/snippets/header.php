@@ -9,7 +9,7 @@
 	<?= css('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700') ?>
 	<?= css('assets/css/style.css') ?>
 	<?= css('assets/css/prism.css') ?>
-	<link rel="icon" href="<?php echo url('assets/images/favicon.ico') ?>" />
+	<link rel="icon" href="<?php echo url('assets/images/favicon.png?v=3') ?>" />
 </head>
 <body>
 	<div class="wrap">
