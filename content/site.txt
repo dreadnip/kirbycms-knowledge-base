@@ -1,8 +1,8 @@
-﻿Title: Knowledge-Base
+﻿Title: Docs
 
 ----
 
-Author: Your company
+Author: @dreadnip
 
 ----
 
@@ -10,8 +10,8 @@ Description: Knowledge-Base
 
 ----
 
-Keywords: knowledge-base, something
+Keywords: docs, theme, kirby, knowledge, base, free, 2017, 2016
 
 ----
 
-Copyright: © 2012 Your company
+Copyright: © 2017 @dreadnip
