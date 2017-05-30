@@ -14,6 +14,10 @@ I needed a docs theme for Kirby and this seemed like a good place to start (a li
 * ~~Check out the code highlighting part/plugin and fix that~~
 * ~~Fix the pre/code wrapping~~
 
+All done!
+
+Hosted live over at http://sanderdlm.be/docs/
+
 
 ## Credit to the origin creator
 
