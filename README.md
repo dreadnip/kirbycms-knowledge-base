@@ -1,20 +1,28 @@
 # Kirby Knowledge Base
 
-I needed a docs theme for Kirby and this seemed like a good place to start (a little outdated though). I've updated most of it to abide by modern standards.
+This is a 2017, Kirby 2.3, re-write of the original knowledge base theme by [@christianreber](http://twitter.com/christianreber).
+
+I've only worked on it briefly, but it should have:
 
 * Modern Kirby folder structure
 * CSS re-write with flexbox and better typography
 * Using the built in search rather than the old plugin
-* Various small tweaks
+* Improved treemenu code
+* responsive (I should really collapse the menu though)
+* Code highlighting
 
-## To do
+Demo hosted live over at http://sanderdlm.be/docs/
 
-* ~~Check out the treemenu template and improve where possible~~
-* ~~Finish the styling~~ + responsive! (I've added basic media queries & the layout uses vw so it scales pretty well by default)
-* ~~Check out the code highlighting part/plugin and fix that~~
-* ~~Fix the pre/code wrapping~~
+To install, simply clone this repo.
 
+If you want to install this theme on an existing Kirby installation, copy these folders:
 
-## Credit to the origin creator
+* /assets
+* /site/blueprints
+* /site/controllers
+* /site/snippets
+* /site/templates
 
-* [@christianreber](http://twitter.com/christianreber)
+Then hard refresh to clear your cache.
+
+For any questions -> [@dreadnip](https://twitter.com/dreadnip)
