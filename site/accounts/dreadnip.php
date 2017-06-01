@@ -7,5 +7,6 @@ email: test@test.com
 language: en
 role: admin
 history:
+  - stream
   - home
   - error

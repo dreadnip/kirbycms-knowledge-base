@@ -53,7 +53,7 @@ img {
 /* -----  Typography  --------------------------------------------- */
 
 h1 {
-	color: #000;
+	color: #5B5B5B;
 	font-size: 2rem;
 	line-height: 1.25em;
 	margin-bottom: 2rem;
@@ -98,6 +98,13 @@ h4 {
 	padding: 2em;
 }
 
+@media all and (max-width: 90em) {
+  .wrap {
+  	width:80vw;
+    flex-direction: row;
+  }
+}
+
 @media all and (max-width: 30em) {
   .wrap {
   	width:90vw;
@@ -119,7 +126,7 @@ h4 {
 }
 
 .menu a {
-	color:#000;
+	color:#5B5B5B;
 	border-bottom: none;
 }
 
@@ -145,7 +152,7 @@ h4 {
 
 .menu ul ul li a {
 	padding-left:20px;
-	color:#999;
+	color:#A3A3A3;
 }
 
 .menu ul ul ul li a {

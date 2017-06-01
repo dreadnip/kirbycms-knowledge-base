@@ -5,7 +5,7 @@
 <div class="content">
 
 	<?php snippet('breadcrumb') ?>
-	
+		
 	<div class="results">
 
 		<?php if($results): ?>
