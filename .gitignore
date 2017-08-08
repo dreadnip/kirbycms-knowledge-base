@@ -4,3 +4,4 @@
 *.espressostorage
 /vendor/
 /site/accounts
+sftp-config.json
